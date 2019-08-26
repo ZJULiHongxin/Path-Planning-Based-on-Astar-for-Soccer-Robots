@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="zss_cmd.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="example_robo.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="vision_detection.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="astar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="receive.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="basic.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="send.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="wsadatainit.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="setupServer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="zss_debug.pb.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="mylocal_planner.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="draw_map.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="zss_cmd.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="example_robo.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="vision_detection.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Astar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="receive.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="send.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="wsadatainit.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="setupServer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="zss_debug.pb.cc">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="draw_map.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="mylocal_planner.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,12 @@
+syntax = "proto2";
+package tutorial;
+
+message Robot{
+	optional uint32 robot_id = 1;   
+	required float  x = 2;
+	required float  y = 3;
+	optional float  orientation = 4; 
+
+}
+
+
